@@ -3,7 +3,6 @@ File Hash Calculation Tool
 
 GUI utility that will calculate and display MD5, SHA1 &amp; SHA256 hashes for the specified file
 
-<<<<<<< HEAD
 
 Prerequisites
 ============
@@ -18,4 +17,3 @@ About
 
 =======
 ![](https://github.com/vN3rd/FileHashTool/raw/master/FileHashTool_Demo.gif)
->>>>>>> origin/master
