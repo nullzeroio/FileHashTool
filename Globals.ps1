@@ -2,7 +2,14 @@
 # Declare Global Variables and Functions here
 #--------------------------------------------
 
-$currentVersion = 'v1.0'
+$currentVersion = 'v2.0'
+
+$algorithmProperties = (
+'MD5',
+'SHA1',
+'SHA-256',
+'SHA-512'
+)
 
 #Sample function that provides the location of the script
 function Get-ScriptDirectory
