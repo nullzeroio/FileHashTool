@@ -2257,14 +2257,16 @@ $btnGetHash_Click = {
 	- store file name
 	- grab selected algorithm from drop down
 	- calculate file has based on selected algorithm
+	- Copy result to the clipboard
 	- create custom object to store the information
 	- load into data grid view
 	- clear status message text
 	#>
 	
 	$fileShortName = (Get-Item -LiteralPath $tbFile.Text).Name	
-	$selectedAlgorithm = $cbxAlgorithm.Text.Trim()	
+	$selectedAlgorithm = $cbxAlgorithm.Text.Trim()
 	$finalResult = Get-FileHashValue -File $tbFile.Text -Algorithm $selectedAlgorithm
+	$finalResult | clip.exe
 	
 	$objHash = [PSCustomObject] @{
 		File = $fileShortName
