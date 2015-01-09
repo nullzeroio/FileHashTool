@@ -2,7 +2,7 @@
 # Declare Global Variables and Functions here
 #--------------------------------------------
 
-$currentVersion = 'v2.0'
+$currentVersion = 'v2.1'
 
 $algorithmProperties = (
 'MD5',
