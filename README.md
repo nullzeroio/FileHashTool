@@ -1,7 +1,7 @@
 File Hash Calculation Tool
 ============
 
-GUI utility that will calculate and display MD5, SHA1 &amp; SHA256 hashes for the specified file. It also copies the hash text to the clipboard, after the calculation is complete.
+GUI utility that will calculate and display MD5, SHA1, SHA256 and SHA512 hashes for the specified file. It also copies the hash text to the clipboard, after the calculation is complete.
 
 
 Prerequisites
