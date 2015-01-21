@@ -16,4 +16,4 @@ About
 - Hash is calculated using native .NET code in order to offer backward compatibility with PowerShell v3 (PowerShell v4 has a Get-FileHash cmdlet)
 
 =======
-![](https://github.com/vN3rd/FileHashTool/raw/master/FileHashTool_Demo.gif)
+![](https://github.com/vScripter/FileHashTool/raw/master/FileHashTool_Demo.gif)
